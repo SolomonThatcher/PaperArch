@@ -1,0 +1,5 @@
+2021/11/30-01:40:58.078 af3d Reusing MANIFEST /home/sy/.local/share/qutebrowser/webengine/IndexedDB/https_www.monstersandcritics.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/30-01:41:27.078 b085 Level-0 table #5: started
+2021/11/30-01:41:27.085 b085 Level-0 table #5: 5845 bytes OK
+2021/11/30-01:41:27.088 b085 Delete type=0 #3
+2021/11/30-01:41:27.089 b085 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

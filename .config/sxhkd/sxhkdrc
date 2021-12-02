@@ -1,0 +1,65 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + Return
+	kitty
+
+# Rotate Windows
+super + r
+	bspc node @parent -R 90
+
+# program launcher (Apps)
+super + d
+	rofi -show drun
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+##---------- Applications ----------##
+
+# Pacmixer
+super + v
+	kitty -e 'pacmixer'
+
+# Ranger
+super + f
+	kitty -e 'ranger'
+
+# Take a screenshot
+Print
+	scrot
+
+# lock screen
+super + x
+	betterlockscreen -l
+
+##---------- Bspwm ----------##
+
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# Close App
+super + c
+	bspc node -c
+
+# Fullscreen or Monocle
+super + f
+	bspc desktop -l next
+
+#Focus or send to desktop
+super + {_,shift + }{1-8}
+    bspc {desktop -f,node -d} '^{1-8}'
+
+# Toggle beetwen floating & tiled
+super + space
+    bspc node -t "~"{floating,tiled}
+
+# Switch to last opened workspace
+super + {Tab,grave}
+	bspc {node,desktop} -f last
+
+##---------- EOF ----------##

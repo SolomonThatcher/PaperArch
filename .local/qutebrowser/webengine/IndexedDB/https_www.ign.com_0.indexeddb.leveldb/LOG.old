@@ -1,0 +1,5 @@
+2021/11/30-21:09:05.414 194a Reusing MANIFEST /home/sy/.local/share/qutebrowser/webengine/IndexedDB/https_www.ign.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/30-21:09:23.802 194a Level-0 table #5: started
+2021/11/30-21:09:23.803 194a Level-0 table #5: 353 bytes OK
+2021/11/30-21:09:23.803 194a Delete type=0 #3
+2021/11/30-21:09:23.804 194a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

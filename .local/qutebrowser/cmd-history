@@ -1,0 +1,77 @@
+:qute://version
+:config-edit
+:{google.com}
+:search google
+:zoom 100
+:save
+:open qute://settings
+:open google.com
+:open https://start.duckduckgo.com/
+:home
+:open google.com
+:q
+:reload
+:config-edit
+:open qute://settings
+:search gvim
+:config-edit
+:process
+:q
+:open qute://settings
+:save
+:home
+:config-edit
+:back
+:q
+:open youtube.com
+:adb
+:open thepiratebay.com
+:open http://www.btarena.org/games/addon/microsoft-flight-simulator-x-addon-aerosoft-f-16-fighting-falcon-proper-addonia
+
+:back
+:q
+:bac
+:back
+:open qute://settings
+:find autoplay-policy=user-gesture-required
+:find autoplay-policy
+:find autoplay
+:back
+:q
+:open youtube.com
+:q
+:grea
+:open youtube.com
+:find greasemonkey
+:find grease
+:find monkey
+:seach greasemonkey
+:search monkey
+:grease
+:grea
+:open youtube.com
+:q
+:home
+:q
+:open youtube.com
+:set content.blocking.method both
+:reload
+:set content.autoplay false
+:open youtube.com
+:q
+:open youtube.com
+:relo
+:reload
+:quit
+:open https://app.plex.tv/desktop/#!/
+:back
+:open calendar.google.com
+:open maps.google.com
+:back
+:reload
+:home
+:q
+:open youtube.com
+:set content.autoplay false
+:set content.blocking.method both
+:q

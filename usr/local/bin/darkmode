@@ -1,0 +1,19 @@
+#!/bin/bash
+
+killall polybar
+$HOME/.config/polybar/dark/launch.sh &
+feh --bg-fill $HOME/Pictures/Wallpaper-Grid-Dark.png
+
+sed -i -e 's/gtk-application-prefer-dark-theme=.*/gtk-application-prefer-dark-theme='1'/g' /home/$USER/.config/gtk-3.0/settings.ini
+
+sed -i 's/lightmode/darkmode/g' /home/$USER/.config/bspwm/bspwmrc
+
+
+cp /home/$USER/.config/kitty/kitty-dark.conf /home/$USER/.config/kitty/kitty.conf
+
+if pidof -x "firefox" -o $$ >/dev/null;then
+   killall /usr/lib/firefox/firefox
+   firefox &
+   exit 1
+fi
+exit 1
